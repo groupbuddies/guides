@@ -10,7 +10,7 @@ General
 
 Parens and Braces
 ---
-* Leave one space between 'if' and '('.
+* Leave one space between `if` and `(`.
 
 ```javascript
 if (something) {
@@ -18,7 +18,7 @@ if (something) {
 }
 ```
 
-* Prefer this form for multiline if statments
+* Prefer this form for multiline if statements.
 
 ```javascript
 if (something) {
@@ -30,7 +30,7 @@ if (something) {
 }
 ```
 
-* On if statments, whenever it makes sense, you can omit the '{}'
+* On if statements, whenever it makes sense, you can omit the `{}`.
 
 ```javascript
 if (something)
@@ -39,7 +39,7 @@ else
   return otherStuff;
 ```
 
-* Don't include spaces between 'function' and '('.
+* Don't include spaces before `(` and function declaration.
 
 ```javascript
 function bar() {
@@ -53,25 +53,25 @@ var bar = function() {
 
 Assignments and Declarations
 ---
-* Initialize arrays with '[ ]'
+* Initialize arrays with `[ ]`.
 
 ```javascript
 var array = [];
 ```
 
-* Initialize objects with '{ }'
+* Initialize objects with `{ }`.
 
 ```javascript
 var object = {};
 ```
 
-* Leave one space after '{' and before '}' when initializing objects on the same line
+* Leave one space after `{` and before `}` when initializing objects on the same line.
 
 ```javascript
 var map = { ready: 9, when: 4, "you are": 15 };
 ```
 
-* Prefer this form for multiline object/array initialization
+* Prefer this form for multiline object/array initialization.
 
 ```javascript
 var map = {
@@ -133,7 +133,7 @@ elements
 Callbacks
 ---
 
-* Whenever possible make callbacks named functions, it makes the stack trace easier to understand
+* Whenever possible make callbacks named functions, it makes the stack trace easier to understand.
 
 ```javascript
   function callback(error, result) {
@@ -147,13 +147,13 @@ Conditional evaluation
 ---
 
 * Always use `===`.
-* You can use `==` when checking for both null and undefined
+* You can use `==` when checking for both null and undefined.
 
 ```javascript
  undefinedOrNull == null;
 ```
 
-* When evaluating that an array or string is not empty, evaluate truthiness
+* When evaluating that an array or string is not empty, evaluate truthiness.
 
 ```javascript
 if (array.length) {
@@ -169,7 +169,7 @@ if (string) {
 }
 ```
 
-* When evaluating that a reference is true, evaluate its truthiness
+* When evaluating that a reference is true, evaluate its truthiness.
 
 ```javascript
 if (foo) {
@@ -177,7 +177,7 @@ if (foo) {
 }
 ```
 
-* When evaluating that a reference is false, use negation to coerce a true evaluation
+* When evaluating that a reference is false, use negation to coerce a true evaluation.
 
 ```javascript
 if (!foo) {
