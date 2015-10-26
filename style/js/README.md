@@ -44,13 +44,13 @@ var bar = function() {
 
 Assignments and Declarations
 ---
-* Initialize arrays with `[ ]`.
+* Initialize arrays with `[]`.
 
 ```javascript
 var array = [];
 ```
 
-* Initialize objects with `{ }`.
+* Initialize objects with `{}`.
 
 ```javascript
 var object = {};
