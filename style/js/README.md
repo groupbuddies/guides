@@ -5,8 +5,8 @@ Guides for programing JavaScript in style
 
 General
 ---
-* Use [ESLint](http://eslint.org/)
-* Always use `use strict`
+* Use [ESLint](http://eslint.org/).
+* Always use `use strict`.
 
 Parens and Braces
 ---
@@ -18,7 +18,7 @@ if (something) {
 }
 ```
 
-* Prefer this form for multiline if statements.
+* Prefer this form for multiline `if` statements.
 
 ```javascript
 if (something) {
@@ -30,7 +30,7 @@ if (something) {
 }
 ```
 
-* Don't include spaces before `(` and function declaration.
+* Don't include spaces between `(` and function declaration.
 
 ```javascript
 function bar() {
@@ -65,9 +65,9 @@ var map = { ready: 9, when: 4, "you are": 15 };
 * Prefer single line object/array initialization.
 
 ```javascript
-var map = { when: 4, ready: 9, "you are": 15 };
+var object = { when: 4, ready: 9, "you are": 15 };
 
-var map = [1, 2, 3];
+var array = [1, 2, 3];
 ```
 
 Constructors
