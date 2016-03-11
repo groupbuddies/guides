@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "consistent-return": 0,
+    "id-length": [2, {"exceptions": ["_"]}],
+    "new-cap": [2, {
+      "capIsNewExceptions": ["CSSModules"]
+    }],
+    "react/no-multi-comp": [2, { "ignoreStateless": true }]
+  }
+}
