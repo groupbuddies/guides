@@ -53,6 +53,15 @@ Rails Routes
 * Avoid the `:except` option in routes.
 * Order resourceful routes alphabetically by name.
 * Use the `:only` option to explicitly state exposed routes.
+* When specifying `:only`, order the routes following the resource's lifecycle:
+  `index`, `new`, `create`, `show`, `edit`, `update`, `destroy`.
+  ```ruby
+  # Good
+  resources :posts, only: %i(index new create show destroy)
+
+  # Bad
+  resources :posts, only: %i(index show destroy create new)
+  ```
 
 Background Jobs
 ---------------
