@@ -18,6 +18,9 @@ Metrics/LineLength:
 Style/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
+Style/AndOr:
+  EnforcedStyle: conditionals
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
